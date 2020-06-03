@@ -20,7 +20,7 @@ public class GoogleSearchTest {
 
     @BeforeSuite
     public void testSuiteSetup(){
-        System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/macOS/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\geckodriver.exe");
         driver = new FirefoxDriver();
     }
 
